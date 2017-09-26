@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli('localhost', 'root', 'root', 'Hunter_Newton') 
+$conn = new mysqli('localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP', 'Hunter_Newton') 
 or die ('Cannot connect to db');
 
     $result = $conn->query("SELECT state FROM Challenge1");

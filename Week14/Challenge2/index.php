@@ -27,7 +27,7 @@
         try {
             echo $_GET['color'];
 
-            $db = new PDO('mysql:dbname=Hunter_Newton;host=localhost', 'root', 'root');
+            $db = new PDO('mysql:dbname=Hunter_Newton;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
 
         //if there are any errors, message displays
             $db->setAttribute(PDO::ATTR_ERRMOD,PDO::ERRMODE_EXCEPTION); // THIS IS THE ERROR RIGHT NOW 12:04PM - EDWARD 
